@@ -2,11 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>matplot</title>
   </head>
-    <body>
-    <img src="{{ header|safe }}" alt="" height="100" ,width="100">
-  </body>
+  <p>{{ header }}</p>
   <body>
     <img src="data:image/png;base64,{{ new_data }}" alt="" height="600" ,width="600">
   </body>
@@ -18,8 +15,5 @@
   </body>
   <body>
     <img src="data:image/png;base64,{{ data }}" alt="" height="600" ,width="600">
-  </body>
-  <body>
-    <img src="data:image/png;base64,{{ old_data }}" alt="" height="600" ,width="600">
   </body>
 </html>
