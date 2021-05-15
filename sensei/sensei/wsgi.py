@@ -1,5 +1,5 @@
 """
-WSGI config for bloommodel project.
+WSGI config for sensei project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bloommodel.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sensei.settings')
 
 application = get_wsgi_application()
